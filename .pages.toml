@@ -1,0 +1,16 @@
+[build]
+command = "npm install && npm run build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "20"
+
+# Redirects for SPA routing
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+# Custom domain configuration
+# Domain: sucursal2.websopen.com
+# Owner ID: 6639778784

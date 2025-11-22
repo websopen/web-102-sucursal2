@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tg-theme-bg-color: #ffffff;
+  --tg-theme-text-color: #000000;
+  --tg-theme-hint-color: #999999;
+  --tg-theme-button-color: #3390ec;
+  --tg-theme-button-text-color: #ffffff;
+  --tg-theme-secondary-bg-color: #f3f3f3;
+}
+.dark {
+  --tg-theme-bg-color: #121212;
+  --tg-theme-text-color: #e0e0e0;
+  --tg-theme-hint-color: #888888;
+  --tg-theme-secondary-bg-color: #1e1e1e;
+  --tg-theme-button-color: #3b82f6;
+}
+.leaflet-control-attribution {
+  display: none !important;
+}

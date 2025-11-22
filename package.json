@@ -1,0 +1,32 @@
+{
+  "name": "@websopen/web-kiosco-cliente-sucursal2",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tienda cliente para Kiosco Sucursal 2",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "metadata": {
+    "business_name": "Kiosco Sucursal 2",
+    "owner_id": "6639778784",
+    "subdomain": "sucursal2",
+    "custom_domain": "sucursal2.websopen.com"
+  }
+}
